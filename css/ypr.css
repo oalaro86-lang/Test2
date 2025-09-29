@@ -1,0 +1,47 @@
+/* Общие стили для тела страницы */
+body {
+    font-family: Arial, sans-serif; /* Шрифт для текста */
+    background-color: #f4f4f4; /* Цвет фона страницы */
+    margin: 0; /* Убираем отступы */
+    padding: 20px; /* Внутренние отступы */
+}
+
+/* Стили для формы */
+form {
+    background-color: #fff; /* Цвет фона формы */
+    border: 1px solid #ccc; /* Рамка формы */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 20px; /* Внутренние отступы формы */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Тень для формы */
+}
+
+/* Стили для меток */
+label {
+    display: block; /* Отображение меток в блоке */
+    margin-bottom: 5px; /* Отступ снизу */
+    font-weight: bold; /* Жирный шрифт */
+}
+
+/* Стили для выпадающего списка */
+select {
+    width: 100%; /* Ширина 100% */
+    padding: 10px; /* Внутренние отступы */
+    margin-bottom: 15px; /* Отступ снизу */
+    border: 1px solid #ccc; /* Рамка */
+    border-radius: 5px; /* Закругленные углы */
+}
+
+/* Стили для кнопки */
+button {
+    background-color: #28a745; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none; /* Убираем рамку */
+    padding: 10px 15px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругленные углы */
+    cursor: pointer; /* Указатель при наведении */
+}
+
+/* Стили для кнопки при наведении */
+button:hover {
+    background-color: #218838; /* Темнее при наведении */
+}
